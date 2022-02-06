@@ -1,11 +1,13 @@
-# powerdc Project
+# PowerDC Project
 
-This software manage the setpoint ad read current value from Programmable DC Power Supply *HANMATEK HM310T*.
+This software can manage setpoint and read current value info from Programmable DC Power Supply *HANMATEK HM310T*.
 
 You'll need InfluxDB 2 if you want save the values read from Power Supply. 
 The project has also a MQTT client to receive command to change current setpoint. 
 
-See application.properties to set InfluxDB and MQTT parameters. 
+See application.properties to set InfluxDB and MQTT parameters.
+
+A simple demonstration: [![Watch the video](https://img.youtube.com/vi/910y8kMq1Lc/default.jpg)](https://youtu.be/910y8kMq1Lc)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
